@@ -30,7 +30,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24 \
-    persist.vendor.audio.voicecall.speaker.stereo=true
+    persist.vendor.audio.voicecall.speaker.stereo=true \
+    vendor.audio.capture.enforce_legacy_copp_sr=true
 
 PRODUCT_ODM_PROPERTIES += \
     persist.vendor.audio.fluence.speaker=true \
