@@ -21,6 +21,9 @@ on early-init
     write /sys/module/drm/parameters/vblankoffdelay -1
 
 on property:vendor.post_boot.parsed=1
+    # Disable native stats collection service
+    stop statsd
+
     # Setup runtime cpusets
     write /dev/cpuset/top-app/cpus 0-7
     write /dev/cpuset/system-background/cpus 0-3
