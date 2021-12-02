@@ -59,7 +59,6 @@ BOARD_KERNEL_CMDLINE += \
     kpti=off \
     swiotlb=1 \
     loop.max_part=7 \
-    androidboot.memcg=1 \
     msm_rtb.filter=0x237 \
     cgroup_disable=pressure \
     console=ttyMSM0,115200n8 \
