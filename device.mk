@@ -133,6 +133,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg
 
 PRODUCT_VENDOR_PROPERTIES += \
+    debug.sf.frame_rate_multiple_threshold=120 \
     ro.surface_flinger.set_idle_timer_ms=500 \
     ro.surface_flinger.set_touch_timer_ms=700 \
     ro.surface_flinger.set_display_power_timer_ms=1000 \
