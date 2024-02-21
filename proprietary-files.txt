@@ -535,16 +535,12 @@ vendor/lib64/mediadrm/libwvdrmengine.so|1e029b294540037c72690ec5755426f14b98f511
 # Fingerprint - from MIUI
 vendor/etc/permissions/com.fingerprints.extension.xml|de711d8827e1d321b22b60fd75a204e8928f9c6d
 -vendor/framework/com.fingerprints.extension.jar|da85473758ee143fad4d824d1fb95d9ad6b297a9
-vendor/lib64/com.fingerprints.extension@1.0.so|5e849d6be2b620dca3856b0c4fdfccbb903e97e5
 vendor/lib64/hw/fingerprint.fpc.default.so|629d306bde0b2b8732a0227e8d425d664f2614df
 vendor/lib64/hw/fingerprint.goodix.default.so|dc62dd4cc72d3e930f6a709ff2771e1fe32f0cfc
 vendor/lib64/libgf_ca.so|ac46a106c5e3e2f4064bfded65c1002c1e6dc75a
 vendor/lib64/libgf_hal.so|59e539ad53a6b9fe17d7dbc3dd35cf38baf315ca
 vendor/lib64/libgoodixhwfingerprint.so|6f7d1e37375e9cbdceb8b172a51daba36aa256d8
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|cd6771f2b03fbdd9835102eec8e708aeb879da8b
-
-# Fingerprint - Goodix - from MIUI
-vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so|c437af6258736ac42fd6fc3c7b9a51b2b5ee53ef
 
 # Graphics firmware - from MIUI
 vendor/firmware/a615_zap.b00|1f966d9754aa6b971d39f5b3d9637480e67aa3fe
