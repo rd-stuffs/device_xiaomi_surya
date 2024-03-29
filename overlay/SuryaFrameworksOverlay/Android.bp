@@ -14,5 +14,5 @@
 
 runtime_resource_overlay {
     name: "SuryaFrameworksOverlay",
-    product_specific: true,
+    vendor: true,
 }
