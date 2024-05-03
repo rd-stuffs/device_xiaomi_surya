@@ -542,6 +542,12 @@ vendor/lib64/libgf_hal.so|59e539ad53a6b9fe17d7dbc3dd35cf38baf315ca
 vendor/lib64/libgoodixhwfingerprint.so|6f7d1e37375e9cbdceb8b172a51daba36aa256d8
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|cd6771f2b03fbdd9835102eec8e708aeb879da8b
 
+# Gatekeeper - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|2e33e885b92e413440511049025497945d6b8484
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|6e6249eb7df66b3941cc21d213fabde557daf76e
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|6a90a3902fa4effa005fd58d7222fde6260d4fe4
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|14819df15693c737fb2a51bf89fe826200286006
+
 # Graphics firmware - from MIUI
 vendor/firmware/a615_zap.b00|1f966d9754aa6b971d39f5b3d9637480e67aa3fe
 vendor/firmware/a615_zap.b01|f37fbf6cbaf577c6d09e55d13d4f95f50d457cfd
@@ -562,6 +568,20 @@ vendor/firmware/ipa_fws.mdt|3cf0e17787b1b56a6252a3eda7675cf5e75ad0f2
 
 # IR - from MIUI
 vendor/lib64/hw/consumerir.default.so|bb96104803e2468d7982e6955dad14e6bd739939
+
+# Keymaster - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|786244acf8752dfe4282987f4dd6b29a4c9a6527
+vendor/bin/hw/android.hardware.keymaster@4.1-service-qti|0e0aa56f9ad9b1832eeb39db82eed1f021d7e244
+vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc|9816f37e7487295e29a19d05c4a3e6b7b0ec35ea
+vendor/lib/libkeymasterdeviceutils.so|747c11214cebae3a62c35528adb69828ec72d320
+vendor/lib/libkeymasterprovision.so|6c242b5b82bce8e160d901dbdb0a5dfc61e742c9
+vendor/lib/libkeymasterutils.so|c3750feb3b5f17b5d9b60e0cbb2cc976bbc1f8b0
+vendor/lib/libqtikeymaster4.so|dfe72eaa6401c535be22fe3e67a93d6a80ecaf56
+vendor/lib64/libkeymasterdeviceutils.so|15af23f261554c47b5f490f0fe68c15abe87cda8
+vendor/lib64/libkeymasterprovision.so|6d774511459d24cc7f814546296537a77d35c454
+vendor/lib64/libkeymasterutils.so|2392abef423c0610d9625670f1ff3063532e9bc1
+vendor/lib64/libqcbor.so|7da5294a577f5a71ede5b3804a026bf69bd025ee
+vendor/lib64/libqtikeymaster4.so|cb423cacf556d81b73542c15392a075ee2ab4def
 
 # Listen - from MIUI
 vendor/lib/libadpcmdec.so|297d8fecff85b6dc67ff19e788bcf3f1286014a0
