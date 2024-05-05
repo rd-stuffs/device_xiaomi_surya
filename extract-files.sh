@@ -58,6 +58,9 @@ function blob_fixup() {
         vendor/bin/mi_thermald)
             sed -i 's/%d\/on/%d\/../g' "${2}"
             ;;
+        vendor/lib/android.hardware.camera.provider@2.4-legacy.so | vendor/lib64/android.hardware.camera.provider@2.4-legacy.so)
+            grep -q "libcamera_provider_shim.so" "${2}" || "${PATCHELF}" --add-needed "libcamera_provider_shim.so" "${2}"
+            ;;
     esac
 }
 
