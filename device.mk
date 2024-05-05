@@ -59,6 +59,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    libcamera_provider_shim \
     libpiex_shim \
     libui_shim
 
