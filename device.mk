@@ -340,6 +340,7 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    bootable/deprecated-ota \
     hardware/xiaomi
 
 # Netflix
