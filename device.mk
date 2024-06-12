@@ -353,6 +353,7 @@ PRODUCT_PACKAGES += \
     KarnaWifi \
     KarnaWifiMainline \
     SuryaCarrierConfig \
+    SuryaDeviceAsWebcam \
     SuryaFrameworks \
     SuryaMiuiCamera \
     SuryaNFC \
@@ -439,6 +440,9 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_HAS_GADGET_HAL := true
+
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.usb.uvc.enabled=true
 
 PRODUCT_ODM_PROPERTIES += \
     sys.usb.mtp.batchcancel=1 \
