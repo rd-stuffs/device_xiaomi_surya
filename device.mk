@@ -437,6 +437,13 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     ueventd.surya.rc
 
+# USB
+PRODUCT_HAS_GADGET_HAL := true
+
+PRODUCT_ODM_PROPERTIES += \
+    sys.usb.mtp.batchcancel=1 \
+    vendor.usb.use_ffs_mtp=1
+
 # Userspace fastboot
 PRODUCT_PACKAGES += \
     fastbootd
