@@ -52,7 +52,7 @@
          is 0mA when charging stops), the battery will gradually discharge. So we need to make it
          recharge when the battery level is lower than a threshold. Set this so that the device
          will be charged between (limit - val) and limit. -->
-    <integer name="config_chargingControlBatteryRechargeMargin">1</integer>
+    <integer name="config_chargingControlBatteryRechargeMargin">2</integer>
 
     <!-- The list of components which should be automatically disabled for a specific device. -->
     <string-array name="config_deviceDisabledComponents" translatable="false">
