@@ -21,6 +21,8 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Audio
+TARGET_PROVIDES_AUDIO_HAL := true
+
 PRODUCT_PACKAGES += \
     libaudio-resampler
 
