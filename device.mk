@@ -400,6 +400,9 @@ TARGET_COMMON_QTI_COMPONENTS := \
     wlan
 
 # Radio
+PRODUCT_PACKAGES += \
+    libsqlite.vendor
+
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.radio.add_power_save=0 \
     persist.vendor.radio.atfwd.start=true \
