@@ -1150,7 +1150,7 @@ vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so|3ab43371e1a63494da8d0
 # WiFi Display - HDCP - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/bin/wfdhdcphalservice|40c3d329f49cbb56286d6a550cc8b12ac95048df
 vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc|c266f08783a17f6583e3f22c85e55b0c200442ea
-vendor/etc/seccomp_policy/wfdhdcphalservice.policy|23b46af886f3233c2bddff87507ae8d37c31c022
+vendor/etc/seccomp_policy/wfdhdcphalservice.policy|dd6e81ec3276f4ea6082c41ede96c8155dbf24eb
 vendor/lib/libhdcp1prov.so|218ceb9d2809a670cc6d4284b71fcc7f5a3c5903
 vendor/lib/libhdcp2p2prov.so|75ec44aa9699b74a82c0bd04cb1b791193e67ea8
 vendor/lib/libhdcpsrm.so|fe959f9d6c73e4857b1edd984a41ff59a89e02d3
