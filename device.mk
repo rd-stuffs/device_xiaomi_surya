@@ -108,6 +108,13 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     SuryaFullscreen
 
+# Dex2oat
+PRODUCT_VENDOR_PROPERTIES += \
+    dalvik.vm.dex2oat-cpu-set=4,5,6,7 \
+    dalvik.vm.dex2oat-threads=4 \
+    dalvik.vm.image-dex2oat-cpu-set=4,5,6,7 \
+    dalvik.vm.image-dex2oat-threads=4
+
 # Display
 TARGET_USE_AIDL_QTI_MEMTRACK := true
 
