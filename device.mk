@@ -59,7 +59,8 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libpiex_shim
+    libpiex_shim \
+    libui_shim
 
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor \
