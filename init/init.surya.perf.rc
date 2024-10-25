@@ -18,6 +18,9 @@ on init
 on property:sys.boot_completed=1
     copy_per_line /dev/cpuctl/tasks /dev/cpuctl/system/tasks
 
+on property:persist.sys.device_provisioned=1 && property:vendor.post_boot.parsed=1
+    write /dev/cpuctl/dex2oat/cpu.uclamp.max 60
+
 on early-init
     # Disable vblank IRQ immediately after turning off
     write /sys/module/drm/parameters/vblankoffdelay -1
