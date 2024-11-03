@@ -239,8 +239,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Init scripts
 PRODUCT_PACKAGES += \
-    init.mi.usb.sh \
-    init.surya.usb.sh \
     init.qti.dcvs.sh \
     init.qti.early_init.sh
 
