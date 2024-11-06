@@ -341,6 +341,14 @@ TARGET_COMMON_QTI_COMPONENTS := \
     wlan
 
 # Radio
+PRODUCT_PACKAGES += \
+    libjson.vendor \
+    libjsoncpp.vendor \
+    libsqlite.vendor \
+    libnetutils.vendor \
+    libcurl.vendor \
+    libprotobuf-cpp-full
+
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.radio.add_power_save=0 \
     persist.vendor.radio.atfwd.start=true \
