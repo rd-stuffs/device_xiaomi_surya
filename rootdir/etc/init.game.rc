@@ -5,7 +5,6 @@ on property:vendor.post_boot.parsed=1
     setprop sys.perf_profile 0
 
 on property:sys.perf_profile=1
-    write /dev/stune/top-app/schedtune.boost 10
     write /sys/class/kgsl/kgsl-3d0/devfreq/adrenoboost 3
     write /sys/class/kgsl/kgsl-3d0/force_bus_on 1
     write /sys/class/kgsl/kgsl-3d0/force_clk_on 1
@@ -20,7 +19,6 @@ on property:sys.perf_profile=1
     write /sys/class/thermal/thermal_message/sconfig 9
 
 on property:sys.perf_profile=0
-    write /dev/stune/top-app/schedtune.boost 1
     write /sys/class/kgsl/kgsl-3d0/devfreq/adrenoboost 1
     write /sys/class/kgsl/kgsl-3d0/force_bus_on 0
     write /sys/class/kgsl/kgsl-3d0/force_clk_on 0
