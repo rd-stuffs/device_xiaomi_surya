@@ -422,6 +422,12 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# Suspend
+PRODUCT_VENDOR_PROPERTIES += \
+    suspend.short_suspend_threshold_millis=2000 \
+    suspend.max_sleep_time_millis=40000 \
+    suspend.short_suspend_backoff_enabled=true
+
 # Telephony
 PRODUCT_PACKAGES += \
     Stk
