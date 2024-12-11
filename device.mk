@@ -274,6 +274,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
+# LMK
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.vendor.lmk.force_inkernel_lmk=true
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
