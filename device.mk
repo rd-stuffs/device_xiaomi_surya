@@ -432,6 +432,11 @@ PRODUCT_VENDOR_PROPERTIES += \
     suspend.max_sleep_time_millis=40000 \
     suspend.short_suspend_backoff_enabled=true
 
+# Task Profiles
+PRODUCT_COPY_FILES += \
+    system/core/libprocessgroup/profiles/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
+    system/core/libprocessgroup/profiles/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json
+
 # Telephony
 PRODUCT_PACKAGES += \
     Stk
