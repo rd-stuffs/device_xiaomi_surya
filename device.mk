@@ -377,6 +377,11 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# Task Profiles
+PRODUCT_COPY_FILES += \
+    system/core/libprocessgroup/profiles/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
+    system/core/libprocessgroup/profiles/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json
+
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 
