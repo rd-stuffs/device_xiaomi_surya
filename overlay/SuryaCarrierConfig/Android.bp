@@ -4,5 +4,5 @@
 runtime_resource_overlay {
     name: "SuryaCarrierConfig",
     aaptflags: ["--keep-raw-values"],
-    vendor: true
+    device_specific: true
 }

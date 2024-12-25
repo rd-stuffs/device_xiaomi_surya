@@ -3,5 +3,5 @@
 
 runtime_resource_overlay {
     name: "SuryaSystemUI",
-    vendor: true
+    device_specific: true
 }
