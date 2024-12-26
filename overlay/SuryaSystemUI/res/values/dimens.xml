@@ -5,12 +5,14 @@
 -->
 <resources>
 
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_header_height_keyguard">98px</dimen>
+
     <!-- The padding around the statusbar -->
     <dimen name="status_bar_clock_end_padding">2dp</dimen>
     <dimen name="status_bar_padding_top">8dp</dimen>
     <dimen name="status_bar_padding_start">0dp</dimen>
     <dimen name="status_bar_padding_end">0dp</dimen>
-    <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height_default</dimen>
 
     <!-- Location of the power button/fingerprint sensor -->
     <dimen name="physical_power_button_center_screen_location_y">1030px</dimen>
