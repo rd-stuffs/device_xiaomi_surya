@@ -226,7 +226,8 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # HWUI
 PRODUCT_VENDOR_PROPERTIES += \
-    debug.hwui.use_hint_manager=true
+    debug.hwui.use_hint_manager=true \
+    debug.hwui.target_cpu_time_percent=30
 
 # IDC
 PRODUCT_COPY_FILES += \
