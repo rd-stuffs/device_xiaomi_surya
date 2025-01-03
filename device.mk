@@ -291,6 +291,7 @@ SPAMMY_LOG_TAGS := \
     libsensor-parseRGB \
     libsensor-ssccalapi \
     sensors \
+    android.hardware.graphics.composer@2.4-service \
     vendor.qti.bluetooth@1.0-ibs_handler \
     vendor.qti.bluetooth@1.0-wake_lock \
     vendor.qti.hardware.display.composer-service \
