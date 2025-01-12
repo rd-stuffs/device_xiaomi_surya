@@ -13,9 +13,6 @@ $(call inherit-product, vendor/xiaomi/surya/surya-vendor.mk)
 # Vibrator
 $(call inherit-product, hardware/xiaomi/aidl/vibrator/vibrator-vendor-product.mk)
 
-# XiaomiParts
-$(call inherit-product, packages/apps/XiaomiParts/parts.mk)
-
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
