@@ -1,9 +1,6 @@
 # Copyright (C) 2024 Paranoid Android
 # SPDX-License-Identifier: Apache-2.0
 
-# Camera
-$(call inherit-product, vendor/miuicamera/config.mk)
-
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
@@ -61,8 +58,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
-CAMERA_PACKAGE_NAME := com.android.camera
-
 PRODUCT_PACKAGES += \
     libpiex_shim
 
