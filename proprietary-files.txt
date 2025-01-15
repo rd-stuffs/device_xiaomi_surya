@@ -179,6 +179,7 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|23706dcfa35cc6f7dee934e138
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|ece3dafc4447e8302109851c3a6b0d3978b3506d
 
 # Camera - from V14.0.1.0.SJGMIXM
+vendor/lib/libcamera_nn_stub.so|e8d31ea25613c90a3473fbbcd173702462493cb5
 vendor/lib64/hw/camera.qcom.so|a76a6d72408c60f191f401f557d08e6108b31d57
 vendor/lib64/hw/com.qti.chi.override.so|a58f78bb7911d0bf03c4df361e4338b3fcb74d81
 vendor/lib64/libFaceGrade.so|b3f316c56ab78ec550e8248c8d3ae7ca720d009e
@@ -557,6 +558,7 @@ vendor/bin/qseecomd|6d039e936dc833fbac9c121ca19c885b0066e555
 vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
 vendor/etc/init/qseecomd.rc|0ebfb7c5d1d2459be4fdac951a182dc486f3bda7
 vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc|0f43244d70d5efc1e4f089b926a9dc4f59e53db1
+vendor/lib/libGPreqcancel_svc.so|ce6fa44d23d752eb63fe30cc44683ca56e1e45fa
 vendor/lib/libQSEEComAPI.so|2446ad4653cd242f66b46e80cfedbf1b92e84be6
 vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so|275d8465f24646c00711b79c9201bd27e4a1ffb3
 vendor/lib64/libGPreqcancel.so|b9efbc8623981e1249ad0a0f8964b2b655d2b334
@@ -721,6 +723,8 @@ vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so|91b40cfabf0e95a5696e0055c
 vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so|5f20b6233636b48c44848e81fd793956cd4541d7
 vendor/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so|4aee38e3739e31573e3a945389c3c7784f4ac6b9
 vendor/lib/hw/vendor.xiaomi.hardware.misys@4.0-impl.so|ff56064f6e8d558f762e942a0eafcbcada72d727
+vendor/lib/libcheckpid.so|8667e895dc587caf4b0676ee02cc7675622fe3dd
+vendor/lib/liblogwrap_vendor.so|a5f2ff6a446dd7b37ccecc7a51f16d3ba72f8fcb
 vendor/lib/vendor.xiaomi.hardware.misys@1.0.so;MODULE_SUFFIX=_vendor|3750970b41928a71fb6faa8e04e8e0536f52e082
 vendor/lib/vendor.xiaomi.hardware.misys@2.0.so;MODULE_SUFFIX=_vendor|26304d69a2de3459ffbd87d209b050ba2ddc5389
 vendor/lib/vendor.xiaomi.hardware.misys@3.0.so;MODULE_SUFFIX=_vendor|8c163b1f171957c71a3ca630e2312c41f7555de8
@@ -808,6 +812,7 @@ vendor/lib/libqmi_client_qmux.so|b90022ab3e6ab0265a2ffa95b33d8f103a92a15e
 vendor/lib/libqmi_common_so.so|ff25aa6185ebf0700fd5c7d913f383bcd09ea866
 vendor/lib/libqmi_csi.so|77e088094a86d9eab9fcdc3a86fb12b82f4c5d22
 vendor/lib/libqmi_encdec.so|d8642bf7e8193db310dafad8116222f3b3d9013a
+vendor/lib/libqmi_legacy.so|7805ed3a940405d88d4b7dd29516c68ee19c5b08
 vendor/lib/libqmiservices.so|54a2417ab396730b26a2a29e32531d637aa800fc
 vendor/lib64/libdiag.so|8ab005e8965d8728f042cd1739c28f47a1daaaaa
 vendor/lib64/libdsutils.so|3d5c79c01c20251afab22cba199d1e4bf2996590
@@ -832,6 +837,7 @@ vendor/lib64/libqmiservices.so|d7540cd0888599a11dd2ebac1f19ff13d27f9e90
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|4167b12a9f09c52a4dc1555f243dec17051b8a23
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|55c2f0c1e93fccb49ef9919cd56e5903ac14d517
 vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|d85a5fe80de657507d792d6ccb257b155216aee1
+vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|4921d65bc8530777b5590c4d16ec953abbb04dd8
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|eee89151c1178379b51c2857e34ff35d2ad2308c
 vendor/lib64/libGPQTEEC_vendor.so|d70f659c06a38dbae028f41ca6e0dece0ef1d5cd
 vendor/lib64/libGPTEE_vendor.so|92c0215dbd3271e597d536c259df44aac716a402
@@ -996,6 +1002,7 @@ vendor/bin/sensors.qti|64209a8780d42c8c70aee16bcc5b467574fd65f0
 vendor/etc/init/init.vendor.sensors.rc|8d286f50fd261dc8843c6a208386b535cc07641e
 vendor/etc/init/vendor.sensors.qti.rc|f34fc966af816b50f10ae7520b33863961a14478
 vendor/etc/sensors/hals.conf|bf3677cbfa5ce5735662e8c259cb027969f65c87
+vendor/lib/libsnsapi.so|1d40df64b987466391f374d7dbedaa098fe25d8b
 vendor/lib64/libsensorslog.so|5dfd4c42e9dddbea55f56902a9ac4b1098249cb2
 vendor/lib64/libsns_device_mode_stub.so|3ca95e19b3fb12cb10cebc8f8bd091d321e457b1
 vendor/lib64/libsns_fastRPC_util.so|a8ce9430e7f4f57cc884904853d22185cd86840a
