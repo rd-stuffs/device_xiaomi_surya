@@ -41,9 +41,11 @@ function lib_to_package_fixup_vendor_variants() {
     fi
 
     case "$1" in
-        vendor.xiaomi.hardware.misys* | \
+        com.qualcomm.qti.dpm.api@1.0 | \
+            com.qualcomm.qti.imscmservice* | \
+            com.qualcomm.qti.uceservice* | \
+            vendor.xiaomi.hardware.misys* | \
             vendor.qti.hardware.camera.device* | \
-            com.qualcomm.qti.dpm.api@1.0 | \
             vendor.nxp.*)
             echo "$1_vendor"
             ;;
