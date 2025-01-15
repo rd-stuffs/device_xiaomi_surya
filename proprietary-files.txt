@@ -761,10 +761,10 @@ vendor/lib/libpn553_fw.so|a8e29cc3ebb2e0df0fb505fc2da9c69a015680fb
 vendor/lib64/ese_spi_nxp.so|c445cdb0151a078374d1ffe4c5da0940278d451f
 vendor/lib64/hal_libnfc.so|0183743e4899597b43c4ec5cd73d14261e949b0c
 vendor/lib64/nfc_nci.nqx.default.hw.so|a18a96d5fc72680429e7e72b815fa5c8875be573
-vendor/lib64/vendor.nxp.hardware.nfc@1.0.so|2eacba426256a06dd3f6bd388515e40c0cb227ab
-vendor/lib64/vendor.nxp.hardware.nfc@1.1.so|59a7bf3cdbe5c4b52febdd6a1a28f3423977eb82
-vendor/lib64/vendor.nxp.nxpese@1.0.so|83bf8fe9d0a30c085ca43153a594cf7810b59223
-vendor/lib64/vendor.nxp.nxpnfc@1.0.so|7a88ffb5ddaaf79ab8e8fd66a0cd91ccab1d6d10
+vendor/lib64/vendor.nxp.hardware.nfc@1.0.so;MODULE_SUFFIX=_vendor|2eacba426256a06dd3f6bd388515e40c0cb227ab
+vendor/lib64/vendor.nxp.hardware.nfc@1.1.so;MODULE_SUFFIX=_vendor|59a7bf3cdbe5c4b52febdd6a1a28f3423977eb82
+vendor/lib64/vendor.nxp.nxpese@1.0.so;MODULE_SUFFIX=_vendor|83bf8fe9d0a30c085ca43153a594cf7810b59223
+vendor/lib64/vendor.nxp.nxpnfc@1.0.so;MODULE_SUFFIX=_vendor|7a88ffb5ddaaf79ab8e8fd66a0cd91ccab1d6d10
 vendor/libnfc-nxp_RF.conf|d695e6d08b77b06f82be939a6e35a485d4eed357
 
 # NFC - secure element - from V14.0.1.0.SJGMIXM

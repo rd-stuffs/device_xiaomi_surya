@@ -41,10 +41,8 @@ function lib_to_package_fixup_vendor_variants() {
     fi
 
     case "$1" in
-        vendor.xiaomi.hardware.misys@1.0 | \
-            vendor.xiaomi.hardware.misys@2.0 | \
-            vendor.xiaomi.hardware.misys@3.0 | \
-            vendor.xiaomi.hardware.misys@4.0)
+        vendor.xiaomi.hardware.misys* | \
+            vendor.nxp.*)
             echo "$1_vendor"
             ;;
         libOmxCore | \
