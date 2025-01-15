@@ -1170,6 +1170,3 @@ vendor/lib64/libhdcp2p2prov.so|5d9dfc79157b996708a55268117f1a50d6b71551
 vendor/lib64/libhdcpsrm.so|5058280e6273008851983ed4389f86fad9de68d4
 vendor/lib64/libmm-hdcpmgr.so|83c232564e9c828b67492207a75ef85866839040
 vendor/lib64/libwfdhdcpcp.so|e193ccd6e2f83ab9879790c53ec3ff4c211a6606
-
-# WLAN - from V14.0.1.0.SJGMIXM
-vendor/bin/cnss-daemon|9d5340c8617997207687090940223584c695bc02
