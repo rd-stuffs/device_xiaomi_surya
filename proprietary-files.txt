@@ -556,6 +556,7 @@ vendor/bin/qseecomd|6d039e936dc833fbac9c121ca19c885b0066e555
 vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
 vendor/etc/init/qseecomd.rc|0ebfb7c5d1d2459be4fdac951a182dc486f3bda7
 vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc|0f43244d70d5efc1e4f089b926a9dc4f59e53db1
+vendor/lib/libQSEEComAPI.so|2446ad4653cd242f66b46e80cfedbf1b92e84be6
 vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so|275d8465f24646c00711b79c9201bd27e4a1ffb3
 vendor/lib64/libGPreqcancel.so|b9efbc8623981e1249ad0a0f8964b2b655d2b334
 vendor/lib64/libGPreqcancel_svc.so|285337b6c490b2c08af93168a377c72020d2d78b
@@ -638,6 +639,7 @@ vendor/lib64/hw/consumerir.default.so|bb96104803e2468d7982e6955dad14e6bd739939
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti|0e0aa56f9ad9b1832eeb39db82eed1f021d7e244
 vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc|9816f37e7487295e29a19d05c4a3e6b7b0ec35ea
 vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service-default-qti.xml|478d11fc12dd7c6a85b543cf163bec217aea3148
+vendor/lib/libqcbor.so|e6907a4f9da62793c7e821fc5388c76c48f8774f
 vendor/lib64/libkeymasterdeviceutils.so|15af23f261554c47b5f490f0fe68c15abe87cda8
 vendor/lib64/libkeymasterprovision.so|6d774511459d24cc7f814546296537a77d35c454
 vendor/lib64/libkeymasterutils.so|2392abef423c0610d9625670f1ff3063532e9bc1
