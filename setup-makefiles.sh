@@ -24,6 +24,30 @@ if [ ! -f "${HELPER}" ]; then
 fi
 source "${HELPER}"
 
+function lib_to_package_fixup_vendor_variants() {
+    if [ "$2" != "vendor" ]; then
+        return 1
+    fi
+
+    case "$1" in
+        vendor.xiaomi.hardware.misys@1.0 | \
+            vendor.xiaomi.hardware.misys@2.0 | \
+            vendor.xiaomi.hardware.misys@3.0 | \
+            vendor.xiaomi.hardware.misys@4.0)
+            echo "$1_vendor"
+            ;;
+        *)
+            return 1
+            ;;
+    esac
+}
+
+function lib_to_package_fixup() {
+    lib_to_package_fixup_clang_rt_ubsan_standalone "$1" ||
+        lib_to_package_fixup_proto_3_9_1 "$1" ||
+        lib_to_package_fixup_vendor_variants "$@"
+}
+
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 
