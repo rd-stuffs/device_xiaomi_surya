@@ -50,6 +50,7 @@ function lib_to_package_fixup_vendor_variants() {
             vendor.display.color* | \
             vendor.display.postproc@1.0 | \
             vendor.qti.data.* | \
+            vendor.qti.hardware.data.* | \
             vendor.xiaomi.hardware.misys* | \
             vendor.qti.hardware.camera.device* | \
             vendor.nxp.*)
