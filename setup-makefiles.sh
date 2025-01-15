@@ -30,6 +30,7 @@ function vendor_imports() {
         "vendor/qcom/common/system/display",
         "vendor/qcom/common/vendor/adreno-r",
         "vendor/qcom/common/vendor/display/4.14",
+        "vendor/qcom/common/vendor/display",
         "vendor/qcom/common/vendor/gps-legacy",
         "vendor/qcom/common/vendor/media-legacy",
 EOF
@@ -46,6 +47,8 @@ function lib_to_package_fixup_vendor_variants() {
             com.qualcomm.qti.uceservice* | \
             libmegface | \
             libmmosal | \
+            vendor.display.color* | \
+            vendor.display.postproc@1.0 | \
             vendor.xiaomi.hardware.misys* | \
             vendor.qti.hardware.camera.device* | \
             vendor.nxp.*)
