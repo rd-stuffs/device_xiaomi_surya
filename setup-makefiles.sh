@@ -44,6 +44,7 @@ function lib_to_package_fixup_vendor_variants() {
         com.qualcomm.qti.dpm.api@1.0 | \
             com.qualcomm.qti.imscmservice* | \
             com.qualcomm.qti.uceservice* | \
+            libmegface | \
             vendor.xiaomi.hardware.misys* | \
             vendor.qti.hardware.camera.device* | \
             vendor.nxp.*)
