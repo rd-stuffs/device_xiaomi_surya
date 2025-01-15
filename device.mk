@@ -149,10 +149,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.early_gl_app_phase_offset_ns=15000000 \
     debug.sf.early_gl_phase_offset_ns=3000000 \
     debug.sf.early_phase_offset_ns=500000 \
-    debug.sf.high_fps_early_gl_phase_offset_ns=-2000000 \
+    debug.sf.high_fps_early_gl_phase_offset_ns=6500000 \
     debug.sf.high_fps_early_phase_offset_ns=6100000 \
-    debug.sf.high_fps_late_app_phase_offset_ns=1000000 \
-    debug.sf.high_fps_late_sf_phase_offset_ns=-2000000
+    debug.sf.high_fps_late_app_phase_offset_ns=1000000
 
 PRODUCT_ODM_PROPERTIES += \
     ro.surface_flinger.has_wide_color_display=false \
