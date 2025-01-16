@@ -432,12 +432,12 @@ vendor/lib64/camera/com.qti.tuned.j20c_sunny_s5k3t2_front_india.bin|0cf33e8f7b4a
 # Camera prebuilt interfaces - from V14.0.1.0.SJGMIXM
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64|a3e29b90c035c726ba94dacedc0dd3df8dd927e6
 vendor/lib/android.hardware.camera.provider@2.4-external.so|f462728f7686cbdeaf465bd43155d227eb22b980
-vendor/lib/android.hardware.camera.provider@2.4-legacy.so|2965063ed9dce8748ba38c14f284575099e9cbfd
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so;DISABLE_CHECKELF|2965063ed9dce8748ba38c14f284575099e9cbfd
 vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so|b473f182647190e565276982c06634932c6d5011
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so;MODULE_SUFFIX=_vendor|1f7f3d82623c638a3144ddffa209d53f86768b6c
 vendor/lib/vendor.qti.hardware.camera.device@3.5.so;MODULE_SUFFIX=_vendor|c5d859f6ffbdab3bad417f9cb32dbf75d8cb7d0d
 vendor/lib64/android.hardware.camera.provider@2.4-external.so|4f69ea6a9e807d3c3564a64c1764e28d9c40bff9
-vendor/lib64/android.hardware.camera.provider@2.4-legacy.so|4e311e433ed442a2ccfbd69310271df88a284c98
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so;DISABLE_CHECKELF|4e311e433ed442a2ccfbd69310271df88a284c98
 vendor/lib64/camera.device@1.0-impl.so|e7d5479c601b3580f8f61c954b31cbfd7cee68c2
 vendor/lib64/camera.device@3.2-impl.so|7cecdd22e7d24f3fec44d1370e25c86a86556f5b
 vendor/lib64/camera.device@3.3-impl.so|90c6be3342d156b941e9f20b0006a61e30dd5af7
