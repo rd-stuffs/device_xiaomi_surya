@@ -602,7 +602,7 @@ vendor/lib64/vendor.qti.hardware.dsp@1.0.so|223a9268bd92bd80dab3df02fbef38ea86bc
 vendor/etc/permissions/com.fingerprints.extension.xml|de711d8827e1d321b22b60fd75a204e8928f9c6d
 vendor/framework/com.fingerprints.extension.jar|da85473758ee143fad4d824d1fb95d9ad6b297a9
 vendor/lib64/hw/fingerprint.fpc.default.so|629d306bde0b2b8732a0227e8d425d664f2614df
-vendor/lib64/hw/fingerprint.goodix.default.so|dc62dd4cc72d3e930f6a709ff2771e1fe32f0cfc
+vendor/lib64/hw/fingerprint.goodix.default.so;FIX_SONAME|53df219cfa719dda4e2be84c98d1b246ab4ecf92
 vendor/lib64/libgf_ca.so|ac46a106c5e3e2f4064bfded65c1002c1e6dc75a
 vendor/lib64/libgf_hal.so|59e539ad53a6b9fe17d7dbc3dd35cf38baf315ca
 vendor/lib64/libgoodixhwfingerprint.so|15b5b89d49440d6ee16e590a4677af0b86d54e35
