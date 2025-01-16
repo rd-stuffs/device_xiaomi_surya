@@ -56,6 +56,7 @@ function lib_to_package_fixup_vendor_variants() {
             vendor.qti.hardware.radio.* | \
             vendor.qti.hardware.slmadapter@1.0 | \
             vendor.qti.hardware.wifidisplaysession@1.0 | \
+            vendor.qti.imsrtpservice@3.0 | \
             vendor.xiaomi.hardware.misys* | \
             vendor.qti.hardware.camera.device* | \
             vendor.nxp.*)
