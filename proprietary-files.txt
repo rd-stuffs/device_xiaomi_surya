@@ -1146,12 +1146,12 @@ vendor/lib/libwfduibcsrc_proprietary.so|c89cd0772f8fdea83fec1feae66ca635aa0b563d
 vendor/lib/libwfduibcsrcinterface_proprietary.so|826a3a7c9f81e63abe1cf805e6abca2d1e6e0afb
 vendor/lib/libwfdutils_proprietary.so|44bbe06b1f21d93ee21aca67b964e3c8e0ef8f78
 vendor/lib/vendor.qti.hardware.sigma_miracast@1.0.so|535271705c142f2a7fd7665940157e81b5f1d4fc
-vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so|1c38bab7199c0ebd418749b16dc8e10610eaf17c
+vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so;MODULE_SUFFIX=_vendor|1c38bab7199c0ebd418749b16dc8e10610eaf17c
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so|a964ebf868307e4ef84c614154184d9c3afe8c86
 vendor/lib64/libmiracast.so|2fea4cf305fed933c1c714f48d5b05762e144f3c
 vendor/lib64/libwfddisplayconfig_proprietary.so|45e8ae904778e66aa0e5c2fe2b598eb2014d3253
 vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so|a457b39a4eef6fe83eaed7b7af6d54a17bfe1cba
-vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so|3ab43371e1a63494da8d0a474b290163a3464f42
+vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so;MODULE_SUFFIX=_vendor|3ab43371e1a63494da8d0a474b290163a3464f42
 
 # WiFi Display - HDCP - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/bin/wfdhdcphalservice|40c3d329f49cbb56286d6a550cc8b12ac95048df
