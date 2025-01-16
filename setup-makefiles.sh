@@ -54,6 +54,7 @@ function lib_to_package_fixup_vendor_variants() {
             vendor.qti.hardware.embmssl* | \
             vendor.qti.hardware.mwqemadapter@1.0 | \
             vendor.qti.hardware.radio.* | \
+            vendor.qti.hardware.slmadapter@1.0 | \
             vendor.xiaomi.hardware.misys* | \
             vendor.qti.hardware.camera.device* | \
             vendor.nxp.*)
