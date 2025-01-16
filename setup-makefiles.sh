@@ -47,6 +47,7 @@ function lib_to_package_fixup_vendor_variants() {
             com.qualcomm.qti.uceservice* | \
             libmegface | \
             libmmosal | \
+            libqcom* | \
             vendor.display.color* | \
             vendor.display.postproc@1.0 | \
             vendor.qti.data.* | \
