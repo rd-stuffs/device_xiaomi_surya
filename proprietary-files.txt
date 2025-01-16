@@ -901,10 +901,10 @@ vendor/lib64/qcril_hal_client.so|fa3feac34f369cd22fda4b9f94cc4d679c704ec9
 vendor/lib64/qcrild_librilutils.so|f12ebc05420621d930ffe7f4b4859117e3c9fc35
 vendor/lib64/qtibus.so|e6a5c9b9462d3377f91e9e8d5eed997ea43bf275
 vendor/lib64/qtimutex.so|026d9acf29b23ab0419abfe3066bd4c9f13bf7ae
-vendor/lib64/vendor.qti.hardware.embmssl@1.0-adapter-helper.so|af284f9fee0a956d87b81705af0dd98ff5805836
-vendor/lib64/vendor.qti.hardware.embmssl@1.0.so|3d1ec041f6ecf79a1e732c17d302d9e6dc58456c
-vendor/lib64/vendor.qti.hardware.embmssl@1.1-adapter-helper.so|03631de9b3ad21566203258ceea743554019a19e
-vendor/lib64/vendor.qti.hardware.embmssl@1.1.so|4cfb0e3f1f7880ae5a72dadf78beb416346f97f6
+vendor/lib64/vendor.qti.hardware.embmssl@1.0-adapter-helper.so;MODULE_SUFFIX=_vendor|af284f9fee0a956d87b81705af0dd98ff5805836
+vendor/lib64/vendor.qti.hardware.embmssl@1.0.so;MODULE_SUFFIX=_vendor|3d1ec041f6ecf79a1e732c17d302d9e6dc58456c
+vendor/lib64/vendor.qti.hardware.embmssl@1.1-adapter-helper.so;MODULE_SUFFIX=_vendor|03631de9b3ad21566203258ceea743554019a19e
+vendor/lib64/vendor.qti.hardware.embmssl@1.1.so;MODULE_SUFFIX=_vendor|4cfb0e3f1f7880ae5a72dadf78beb416346f97f6
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so|3d84dfd841e6bc918b8e92f3e8f4e45d2051708b
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so|ed5b893fc89f0f754bc0377ee8c02bd0b88157d7
 vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|fc4ababd2cc8ff9f1f253194a5998a0596cf83aa
