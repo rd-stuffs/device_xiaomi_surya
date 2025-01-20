@@ -379,10 +379,10 @@ vendor/firmware/CAMERA_ICP.elf|22d8b031172e11b6f34f95be243de8fef092d90c
 # Camera provider - from MIUI
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64|a3e29b90c035c726ba94dacedc0dd3df8dd927e6
 vendor/lib/android.hardware.camera.provider@2.4-external.so|f462728f7686cbdeaf465bd43155d227eb22b980
-vendor/lib/android.hardware.camera.provider@2.4-legacy.so|2965063ed9dce8748ba38c14f284575099e9cbfd
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so|b67016a30c7033d22fad1b37987c0ac6d19172d2
 vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so|b473f182647190e565276982c06634932c6d5011
 vendor/lib64/android.hardware.camera.provider@2.4-external.so|4f69ea6a9e807d3c3564a64c1764e28d9c40bff9
-vendor/lib64/android.hardware.camera.provider@2.4-legacy.so|4e311e433ed442a2ccfbd69310271df88a284c98
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so|19df11e9811064792414a510fbba325ab4b41638
 vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so|c7b14b561b132193ae00008a4d275700e43d0fc9
 
 # Camera sensors - from MIUI
@@ -559,8 +559,8 @@ vendor/lib64/vendor.qti.hardware.qseecom@1.0.so|1b4c92c07ed5ba3f053e10a11f2bc123
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine|2158f47423c723a9da29bb81bb16987a1e715c21
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|a9ce64f68c86725c06c1b1429e90b04ff96ebf60
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
-vendor/lib64/libwvhidl.so|cbc02c1560ed8a9cbe697b5351a94def71692e75
-vendor/lib64/mediadrm/libwvdrmengine.so|1e029b294540037c72690ec5755426f14b98f511
+vendor/lib64/libwvhidl.so|0462668beb3fb52714406c910fe0dc5f82e3b917
+vendor/lib64/mediadrm/libwvdrmengine.so|38944c1d202ed9c24a274f1fc96b50ace1015039
 
 # Fingerprint - from MIUI
 vendor/etc/permissions/com.fingerprints.extension.xml|de711d8827e1d321b22b60fd75a204e8928f9c6d
@@ -783,15 +783,15 @@ vendor/etc/data/netmgr_config.xml|f5d263abc394c1a770d7464b86c5b0c590523c9b
 vendor/etc/init/dataadpl.rc|cd4907d9bfd438fe5f5c86f5d6cec590ac0bac2a
 vendor/etc/init/dataqti.rc|6abfd1a850d782adbbb6f42c9d8ca870036b2ad1
 vendor/etc/init/init-qcril-data.rc|890ac72fa49d0e52a263175a7b5b550539287800
-vendor/etc/init/ipa_fws.rc|f1826b81077f51470c97781823f109f12361ac8b
 vendor/etc/init/init.embmssl_server.rc|e2f59e5d6223112bdcfbf9e9e69fe6abea3698b1
+vendor/etc/init/ipa_fws.rc|f1826b81077f51470c97781823f109f12361ac8b
 vendor/etc/init/netmgrd.rc|5c592bd2cf775462e147d3def97e99abbac4631e
 vendor/etc/init/port-bridge.rc|e52d61a0de5e8a3b21bfbfca929e862422645377
 vendor/etc/init/qcrild.rc|320b644319182f96e494ea30de26cb52b448f592
 vendor/etc/init/shsusrd.rc|4278875bb51f27aa5409f5fdf428c954ea0c14b3
 vendor/etc/init/vendor.qti.rmt_storage.rc|bc212c6353c2ded44ae4d759605fbbe55aa4fa3f
 vendor/etc/init/vendor.qti.tftp.rc|b27f188cbffba470a4510d50e46ff7c8446c22cb
-vendor/etc/seccomp_policy/atfwd@2.0.policy|74fdb7d47bdb6d0cb06b13701a96a76c9171ab5d
+vendor/etc/seccomp_policy/atfwd@2.0.policy|da0ecc6378a5df652f412c4aac8423e50f27a53e
 vendor/lib64/deviceInfoServiceModule.so|d9fb334e23fc38ac9b105af43b76c7f796f3d02a
 vendor/lib64/libconfigdb.so|013880f8ac93e105362b43dabfeeb6a2dfe93964
 vendor/lib64/libdsi_netctrl.so|3ee95268c896435bc8ccf910d171a8eb9d8efef6
@@ -814,9 +814,9 @@ vendor/lib64/libril-qc-radioconfig.so|0baf2a37113680030ce3158c725e4eb1c31283ce
 vendor/lib64/librilqmiservices.so|ad3512fa14ca5231fed6926d48b94633cebb8adf
 vendor/lib64/libsettings.so|903ed689af7b4d62f8bfecab1ef132f8757a1046
 vendor/lib64/libsystem_health_mon.so|2cc55d78ea00b9fe8af9cd88fd8ef8c31ee5f494
-vendor/lib64/qcrild_librilutils.so|f12ebc05420621d930ffe7f4b4859117e3c9fc35
-vendor/lib64/qcril_hal_client.so|fa3feac34f369cd22fda4b9f94cc4d679c704ec9
 vendor/lib64/qcrilHalMarshal.so|c1840ec37d26f37efc40f4b1380f8b613e8964c6
+vendor/lib64/qcril_hal_client.so|fa3feac34f369cd22fda4b9f94cc4d679c704ec9
+vendor/lib64/qcrild_librilutils.so|f12ebc05420621d930ffe7f4b4859117e3c9fc35
 vendor/lib64/qtibus.so|e6a5c9b9462d3377f91e9e8d5eed997ea43bf275
 vendor/lib64/qtimutex.so|026d9acf29b23ab0419abfe3066bd4c9f13bf7ae
 vendor/lib64/vendor.qti.hardware.embmssl@1.0-adapter-helper.so|af284f9fee0a956d87b81705af0dd98ff5805836
