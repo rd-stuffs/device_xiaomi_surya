@@ -68,7 +68,6 @@ BOARD_KERNEL_CMDLINE += \
     androidboot.init_fatal_reboot_target=recovery
     
 KERNEL_DEFCONFIG := surya_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/surya
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version 2
